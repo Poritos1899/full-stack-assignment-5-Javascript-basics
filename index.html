@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Area Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🔹 Area Calculator 🔹</h1>
+
+  <section class="shape">
+    <h2>Triangle</h2>
+    <input type="number" id="base" placeholder="Enter base">
+    <input type="number" id="height" placeholder="Enter height">
+    <button onclick="calculateTriangle()">Calculate</button>
+    <p id="triangle-result"></p>
+  </section>
+
+  <section class="shape">
+    <h2>Rectangle</h2>
+    <input type="number" id="length" placeholder="Enter length">
+    <input type="number" id="width" placeholder="Enter width">
+    <button onclick="calculateRectangle()">Calculate</button>
+    <p id="rectangle-result"></p>
+  </section>
+
+  <section class="shape">
+    <h2>Circle</h2>
+    <input type="number" id="radius" placeholder="Enter radius">
+    <button onclick="calculateCircle()">Calculate</button>
+    <p id="circle-result"></p>
+  </section>
+
+  <script src="triangle.js"></script>
+  <script src="rectangle.js"></script>
+  <script src="circle.js"></script>
+</body>
+</html>

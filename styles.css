@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+}
+
+.shape {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  transition: all .3s;
+}
+.shape:hover {
+    box-shadow: 2px 2px 2px 2px darkgray;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  width: 80%;
+}
+
+button {
+  padding: 10px 20px;
+  background: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkcyan;
+}
