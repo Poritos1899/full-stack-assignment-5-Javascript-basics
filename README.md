@@ -30,3 +30,4 @@ Create a simple area calculator using JavaScript, covering the topics of variabl
 
    - Create the project as per the above requirements.
    - Deploy the project on netlify and add the Deoployed link in the Pull Request (PR)
+https://stunning-kitten-3b1224.netlify.app/
